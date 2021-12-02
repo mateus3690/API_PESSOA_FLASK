@@ -36,6 +36,7 @@ class Atividades(Base):
      tb_pessoa = relationship('Pessoas')
 
      def __repr__(self):
+         #return f'<Pessoa {self.nome}>'
          return f'<Ativiade {self.nome}>'
      
      def save(self):

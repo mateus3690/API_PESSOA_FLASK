@@ -7,7 +7,7 @@ def consulta():
 
 def inserir():
 
-     insert_into = Pessoas(nome='gabriel', idade=14)
+     insert_into = Pessoas(nome='marcos', idade=30)
      insert_into.save()
 
      print(insert_into)
@@ -23,8 +23,8 @@ def excluir():
      delet.delete()
 
 if __name__ == '__main__':
-     #inserir()
+     inserir()
      #alterar()
-     print(consulta())
+    # print(consulta())
      #excluir()
     # print(consulta())
