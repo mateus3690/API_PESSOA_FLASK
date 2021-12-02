@@ -2,8 +2,11 @@
 
 Iniciar:
     
-    crie uma vitual env, no Terminal digite:
+    crie uma virtual env, no Terminal digite:
       py -m venv (nome da env)
+      
+    iniciar a virtual env:
+     ./(nome da env)/Scripts/Activate.ps1
      
 Dependências:
     
